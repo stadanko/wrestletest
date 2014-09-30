@@ -1,0 +1,240 @@
+Anchorage city, AK                      
+Jacksonville city, FL                     
+Oklahoma City city, OK                
+Houston city, TX                          
+Phoenix city, AZ                          
+Nashville city, TN
+Los Angeles city, CA                    
+San Antonio city, TX                    
+Indianapolis city , IN    
+Dallas city, TX                              
+Chesapeake city, VA                   
+San Diego city, CA                       
+Kansas City city, MO                   
+New York city, NY                        
+Augusta city, GA
+Fort Worth city, TX              
+Lexington city, KY         
+Memphis city, TN                 
+Austin city, TX                     
+El Paso city, TX
+Virginia Beach city, VA         
+Charlotte city, NC                
+Chicago city, IL                   
+Columbus city (balance), GA
+Columbus city, OH               
+Tucson city, AZ                    
+Colorado Springs city, CO   
+Scottsdale city, AZ              
+Tulsa city, OK                      
+New Orleans city, LA           
+Albuquerque city, NM          
+San Jose city, CA                 
+Huntsville city, AL                
+Montgomery city, AL            
+Corpus Christi city, TX         
+Denver city, CO                   
+Birmingham city, AL             
+Aurora city, CO                    
+Detroit city, MI                    
+Peoria city, AZ                     
+Wichita city, KS                   
+Chattanooga city, TN          
+Philadelphia city, PA            
+Portland city, OR                 
+Atlanta city, GA                   
+Columbia city, SC                
+Mesa city, AZ                       
+Kansas City city, KS            
+Mobile city, AL                     
+Athens city, GA
+Little Rock city, AR 
+Omaha city, NE      
+Lubbock city, TX    
+Raleigh city, NC     
+Las Vegas city, NV 
+Bakersfield city, CA
+Tampa city, FL       
+Salt Lake City city, UT    
+Winston-Salem city, NC 
+Cape Coral city, FL        
+Abilene city, TX              
+Palmdale city, CA           
+Jackson city, MS            
+Greensboro city, NC      
+Fresno city, CA              
+Shreveport city, LA        
+Sacramento city, CA      
+Milwaukee city, WI        
+Arlington city, TX           
+Tallahassee city, FL       
+Clarksville city, TN         
+Durham city, NC            
+Lancaster city, CA         
+Orlando city, FL             
+Knoxville city, TN           
+Amarillo city, TX             
+Honolulu city, HI           
+Beaumont city, TX         
+Waco city, TX                 
+Seattle city, WA             
+Baltimore city, MD          
+Toledo city, OH              
+Brownsville city, TX        
+Henderson city, NV        
+Fort Wayne city, IN       
+North Las Vegas city, NV
+Laredo city, TX                
+Independence city, MO   
+Riverside city, CA            
+Cincinnati city, OH          
+Cleveland city, OH          
+Baton Rouge city, LA      
+Fremont city, CA             
+Des Moines city, IA         
+Savannah city, GA          
+Lincoln city, NE               
+Springfield city, MO         
+Plano city, TX                  
+Grand Prairie city, TX      
+Wichita Falls city, TX       
+Reno city, NV                  
+Madison city, WI             
+Newport News city, VA   
+Irving city, TX                  
+Boise City city, ID           
+Cedar Rapids city, IA      
+Louisville city, KY            
+Akron city, OH                 
+St. Louis city, MO            
+Washington city, DC       
+Richmond city, VA           
+St. Petersburg city, FL    
+San Bernardino city, CA  
+Fayetteville city, NC        
+Chandler city, AZ            
+Spokane city, WA           
+Garland city, TX              
+Overland Park city, KS    
+Sioux Falls city, SD          
+Oakland city, CA             
+Rockford city, IL              
+Topeka city, KS               
+Dayton city, OH              
+Glendale city, AZ             
+Pittsburgh city, PA         
+Thousand Oaks city, CA
+Minneapolis city, MN      
+Stockton city, CA           
+Springfield city, IL         
+Norfolk city, VA              
+St. Paul city, MN            
+Hampton city, VA           
+Moreno Valley city, CA   
+Long Beach city, CA      
+Gary city, IN                  
+Tacoma city, WA            
+Ontario city, CA             
+Anaheim city, CA           
+Chula Vista city, CA       
+Boston city, MA             
+Santa Clarita city, CA    
+Lafayette city, LA          
+San Francisco city, CA   
+Fort Collins city, CO       
+Irvine city, CA                
+McAllen city, TX              
+Salem city, OR               
+Pueblo city, CO             
+Grand Rapids city, MI    
+Peoria city, IL                
+Hayward city, CA           
+Pasadena city, TX         
+Green Bay city, WI        
+Mesquite city, TX           
+Gilbert city, AZ            
+Vancouver city, WA       
+Lakewood city, CO        
+Evansville city, IN          
+Oceanside city, CA        
+Buffalo city, NY              
+Eugene city, OR            
+Tempe city, AZ              
+Santa Rosa city, CA       
+Provo city, UT                
+Simi Valley city, CA        
+South Bend city, IN       
+Aurora city, IL               
+Joliet city, IL                  
+Stamford city, CT           
+Worcester city, MA        
+Rancho Cucamonga city, CA
+Sterling Heights city, MI 
+Carrollton city, TX          
+Escondido city, CA         
+Fontana city, CA            
+Modesto city, CA            
+Rochester city, NY          
+Miami city, FL                 
+Livonia city, MI               
+Naperville city, IL           
+West Valley City city, UT
+Corona city, CA              
+Lansing city, MI             
+Warren city, MI              
+Flint city, MI                   
+Portsmouth city, VA       
+Pembroke Pines city, FL 
+Manchester city, NH       
+Arvada city, CO              
+Springfield city, MA        
+Fort Lauderdale city, FL 
+Westminster city, CO     
+Bellevue city, WA           
+Glendale city, CA           
+Vallejo city, CA               
+Concord city, CA            
+Waterbury city, CT         
+Hollywood city, FL          
+Santa Ana city, CA         
+Ann Arbor city, MI          
+Huntington Beach city, CA
+Oxnard city, CA         
+Clearwater city, FL    
+Syracuse city, NY       
+Coral Springs city, FL
+Newark city, NJ         
+Orange city, CA         
+Pasadena city, CA     
+Pomona city, CA        
+Fullerton city, CA       
+Erie city, PA               
+Sunnyvale city, CA    
+Ventura city, CA
+Torrance city, CA          
+Hialeah city, FL            
+Salinas city, CA            
+New Haven city, CT      
+Providence city, RI       
+Santa Clara city, CA     
+Yonkers city, NY           
+Garden Grove city, CA  
+Allentown city, PA        
+Burbank city, CA          
+Hartford city, CT           
+West Covina city, CA   
+Bridgeport city, CT       
+Costa Mesa city, CA     
+Alexandria city, VA       
+Jersey City city, NJ       
+Lowell city, MA             
+Downey city, CA           
+Elizabeth city, NJ          
+Berkeley city, CA          
+Norwalk city, CA           
+El Monte city, CA          
+Inglewood city, CA       
+Paterson city, NJ          
+Daly City city, CA          
+Cambridge city, MA 
+Monroe city, LA
