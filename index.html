@@ -40,8 +40,8 @@
                 <div class="col-md-6 no-pad">
                     <div class="user-pad">
                         <h3 class="wrestler-name">{{ w_first }} {{ w_last }}</h3>
-                        <h4 class="white worker-info"><i class="fa fa-globe"></i> &nbsp; {{ w_city }} {{ w_state }}</h4>
-                        <h4 class="white worker-info">{{ w_height }} {{ w_weight }} lbs</h4>
+                        <h4 class="white worker-info"><em>{{ w_first }}</em> is a {{w_style}} from {{ w_city }} {{ w_state }}</h4>
+                        <h4 class="white worker-info">{{ w_height }} :: {{ w_weight }} lbs</h4>
                     </div>
                 </div>
                 <div class="col-md-6 no-pad">
@@ -103,24 +103,59 @@
                 </ul>
             </div>
             <div class="user-menu-content">
-                <h3>
-                    Your Inbox
-                </h3>
-                <ul class="user-menu-list">
-                    <li>
-                        <h4>From Roselyn Smith <small class="coral"><strong>NEW</strong> <i class="fa fa-clock-o"></i> 7:42 A.M.</small></h4>
-                    </li>
-                    <li>
-                        <h4>From Jonathan Hawkins <small class="coral"><i class="fa fa-clock-o"></i> 10:42 A.M.</small></h4>
-                    </li>
-                    <li>
-                        <h4>From Georgia Jennings <small class="coral"><i class="fa fa-clock-o"></i> 10:42 A.M.</small></h4>
-                    </li>
-                    <li>
-                        <button type="button" class="btn btn-labeled btn-danger" href="#">
-                            <span class="btn-label"><i class="fa fa-envelope-o"></i></span>View All Messages</button>
-                    </li>
-                </ul>
+                <table class="table table-bordered table-condensed">
+                  <tbody>
+                    <th colspan="4">Physical</th>
+                    <tr>
+                      <td class="stat-name">Strength</td>
+                      <td class="statistic">{{ w_strength }}</td>
+                      <td class="stat-name">Aerial</td>
+                      <td class="statistic">{{ w_aerial }}</td>
+                    </tr>
+                    <tr>
+                      
+                    </tr>
+                    <tr>
+                      <td class="stat-name">Grappling</td>
+                      <td class="statistic">{{ w_grappling }}</td>
+                      <td class="stat-name">Movement</td>
+                      <td class="statistic">{{ w_movement }}</td>
+                    </tr>
+
+                  </tbody>
+                </table>
+
+                <table class="table table-bordered table-condensed">
+                  <tbody>
+                    <th colspan="4">Mental</th>
+                    <tr>
+                      <td class="stat-name">Microphone</td>
+                      <td class="statistic">{{ w_microphone }}</td>
+                      <td class="stat-name">Psychology</td>
+                      <td class="statistic">{{ w_psychology }}</td>
+                    </tr>
+                    </tr>
+                    <tr>
+                      <td class="stat-name">Look</td>
+                      <td class="statistic">{{ w_look }}</td>
+                      <td class="stat-overall" colspan="2" rowspan="3">
+                        <h6>Overall Rating</h6>
+                        {{ w_overall }}
+                      </td>
+                    </tr>
+                    </tr>
+                    <tr>
+                      <td class="stat-name">Charisma</td>
+                      <td class="statistic">{{ w_charisma }}</td>
+                    </tr>
+                    <tr>
+                      <td class="stat-name">Movement</td>
+                      <td class="statistic">{{ w_selling }}</td>
+                    </tr>
+                    <tr>
+                      
+                  </tbody>
+                </table>
             </div>
             <div class="user-menu-content">
                 <h3>
