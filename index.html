@@ -42,6 +42,7 @@
                         <h3 class="wrestler-name">{{ w_first }} {{ w_last }}</h3>
                         <h4 class="white worker-info"><em>{{ w_first }}</em> is a {{w_style}} from {{ w_city }} {{ w_state }}</h4>
                         <h4 class="white worker-info">{{ w_height }} :: {{ w_weight }} lbs</h4>
+                        <h5 class="white worker-stable">Stable: <a href="">Them Hutto Boys</a></h5> 
                     </div>
                 </div>
                 <div class="col-md-6 no-pad">
@@ -103,9 +104,9 @@
                 </ul>
             </div>
             <div class="user-menu-content">
-                <table class="table table-bordered table-condensed">
+                <table class="table table-condensed">
                   <tbody>
-                    <th colspan="4">Physical</th>
+                    <th class="stat-heading" colspan="4">In-Ring</th>
                     <tr>
                       <td class="stat-name">Strength</td>
                       <td class="statistic">{{ w_strength }}</td>
@@ -132,7 +133,7 @@
 
                 <table class="table table-bordered table-condensed">
                   <tbody>
-                    <th colspan="4">Mental</th>
+                    <th class="stat-heading" colspan="4">Entertainment</th>
                     <tr>
                       <td class="stat-name">Microphone</td>
                       <td class="statistic">{{ w_microphone }}</td>
@@ -154,7 +155,7 @@
                       <td class="statistic">{{ w_charisma }}</td>
                     </tr>
                     <tr>
-                      <td class="stat-name">Movement</td>
+                      <td class="stat-name">Selling</td>
                       <td class="statistic">{{ w_selling }}</td>
                     </tr>
                     <tr>
