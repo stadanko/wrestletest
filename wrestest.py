@@ -31,9 +31,6 @@ class MainPage(webapp2.RequestHandler):
             'w_type': wrestler.type,
             # The following values are specific to the Wrestler type
             'w_style': wrestler.style,
-            'w_stamina': wrestler.stamina,
-            'w_grit': wrestler.grit,
-            'w_honor': wrestler.honor,
             # Wrestler Physical Statistics
             'w_strength': wrestler.strength,
             'w_aerial': wrestler.aerial,
@@ -77,10 +74,11 @@ class Wrestler(Worker):
         self.microphone, self.look, self.charisma, self.selling, self.psychology \
                        = wrestlerStats.assignEntertainmentStats()
         self.overall = wrestlerStats.assignOverall(self.style, self.strength, self.aerial,
-                                                   self.grappling, self.striking, self.movement,
-                                                   self.microphone, self.look, self.charisma,
-                                                   self.selling, self.psychology)
+                                                   self.grappling, self.striking, self.movement)
         self.stamina, self.grit, self.honor = wrestlerStats.assignCharacterStats(self.weight)
+        self.popularity = wrestlerStats.assignPopularity(self.microphone, self.look, self.charisma,
+                                                         self.selling, self.psychology, self.grit,
+                                                         self.honor)
     
     def __str__(self):
         return Worker.__str__(self) + \
