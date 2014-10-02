@@ -1,13 +1,26 @@
 import random
 top = 101
+handicap = 51
 
-def assignPhysicalStats():
+def assignPhysicalStats(weight):
     
-    strength =  random.randrange(top)
-    aerial =    random.randrange(top)
-    grappling = random.randrange(top)
     striking =  random.randrange(top)
-    movement =  random.randrange(top)
+    if (weight < 200):
+        strength = random.randrange(handicap)
+    else:
+        strength = random.randrange(top)
+    if (weight > 250):
+        aerial = random.randrange(handicap)
+    else:
+        aerial = random.randrange(top)
+    if (weight > 300):
+        grappling = random.randrange(handicap)
+    else:
+        grappling = random.randrange(top)
+    if (weight > 270):
+        movement =  random.randrange(handicap)
+    else:        
+        movement =  random.randrange(top)
     
     return strength, aerial, grappling, striking, movement
 
@@ -60,4 +73,15 @@ def assignOverall(style, strength, aerial, grappling, striking, movement,
         return int(strength*.05+aerial*.1+grappling*.1+striking*.1+movement*.2+
                 microphone*.1+look*.1+charisma*.1+selling*.1+psychology*.1)
     return "xx"
+    
+def assignCharacterStats(weight):
+    if (weight > 300):
+        stamina = random.randrange(handicap)
+    else:
+        stamina = random.randrange(top)
+    grit = random.randrange(top)
+    honor = random.randrange(top)
+    return stamina, grit, honor
+
+
     

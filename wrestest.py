@@ -68,14 +68,16 @@ class Wrestler(Worker):
         Worker.__init__(self)
         self.type = "Wrestler"
         self.strength, self.aerial, self.grappling, self.striking, self.movement \
-                       = wrestlerStats.assignPhysicalStats()
-        self.style = wrestlerStats.assignStyle(self.weight, self.strength, self.aerial, self.grappling,
-                                               self.striking, self.movement)
+                       = wrestlerStats.assignPhysicalStats(self.weight)
+        self.style = wrestlerStats.assignStyle(self.weight, self.strength, self.aerial,
+                                               self.grappling, self.striking, self.movement)
         self.microphone, self.look, self.charisma, self.selling, self.psychology \
                        = wrestlerStats.assignEntertainmentStats()
-        self.overall = wrestlerStats.assignOverall(self.style, self.strength, self.aerial, self.grappling,
-                                                   self.striking, self.movement, self.microphone, self.look,
-                                                   self.charisma, self.selling, self.psychology)
+        self.overall = wrestlerStats.assignOverall(self.style, self.strength, self.aerial,
+                                                   self.grappling, self.striking, self.movement,
+                                                   self.microphone, self.look, self.charisma,
+                                                   self.selling, self.psychology)
+        self.stamina, self.grit, self.honor = wrestlerStats.assignCharacterStats(self.weight)
     
     def __str__(self):
         return Worker.__str__(self) + \
