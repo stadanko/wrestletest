@@ -31,6 +31,9 @@ class MainPage(webapp2.RequestHandler):
             'w_type': wrestler.type,
             # The following values are specific to the Wrestler type
             'w_style': wrestler.style,
+            'w_stamina': wrestler.stamina,
+            'w_grit': wrestler.grit,
+            'w_honor': wrestler.honor,
             # Wrestler Physical Statistics
             'w_strength': wrestler.strength,
             'w_aerial': wrestler.aerial,
