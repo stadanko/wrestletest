@@ -1,74 +1,35 @@
 import random
 top = 101
 
-def assignStyle(weight):
-    coinFlip = random.randrange(2)
-    if (weight > 280):
+def assignPhysicalStats():
+    
+    strength =  random.randrange(top)
+    aerial =    random.randrange(top)
+    grappling = random.randrange(top)
+    striking =  random.randrange(top)
+    movement =  random.randrange(top)
+    
+    return strength, aerial, grappling, striking, movement
+
+def assignStyle(weight, strength, aerial, grappling, striking, movement):
+    attributes = [strength, aerial, grappling, striking, movement]
+    attributeValue = strength
+    keyAttribute = 0
+    for i in range(len(attributes)):
+        if (attributes[i] > attributeValue):
+            attributeValue = attributes[i]
+            keyAttribute = i
+        
+    if (keyAttribute == 0):
         return "Power House"
-    elif(weight > 230):
-        if (coinFlip == 0):
-            return "Brawler"
-        else:
-            return "Technical"
-    elif(weight > 200):
-        if (coinFlip == 0):
-            return "Fast Paced"
-        else:
-            return "Technical"
-    else:
+    elif (keyAttribute == 1):
         return "High Flyer"
-
-def assignPhysicalStats(style):
-    
-    if (style == "Power House"):
-        
-        strength =  random.randrange(top)
-        aerial =    random.randrange(top)
-        grappling = random.randrange(top)
-        striking =  random.randrange(top)
-        movement =  random.randrange(top)
-        
-        return strength, aerial, grappling, striking, movement
-    
-    elif (style == "Brawler"):
-        
-        strength =  random.randrange(top)
-        aerial =    random.randrange(top)
-        grappling = random.randrange(top)
-        striking =  random.randrange(top)
-        movement =  random.randrange(top)
-        
-        return strength, aerial, grappling, striking, movement
-
-    elif (style == "Technical"):
-        
-        strength =  random.randrange(top)
-        aerial =    random.randrange(top)
-        grappling = random.randrange(top)
-        striking =  random.randrange(top)
-        movement =  random.randrange(top)
-        
-        return strength, aerial, grappling, striking, movement
-
-    elif (style == "Fast Paced"):
-        
-        strength =  random.randrange(top)
-        aerial =    random.randrange(top)
-        grappling = random.randrange(top)
-        striking =  random.randrange(top)
-        movement =  random.randrange(top)
-        
-        return strength, aerial, grappling, striking, movement
-
-    elif (style == "High Flyer"):
-        
-        strength =  random.randrange(top)
-        aerial =    random.randrange(top)
-        grappling = random.randrange(top)
-        striking =  random.randrange(top)
-        movement =  random.randrange(top)
-        
-        return strength, aerial, grappling, striking, movement
+    elif (keyAttribute == 2):
+        return "Technical"
+    elif (keyAttribute == 3):
+        return "Brawler"
+    elif (keyAttribute == 4):
+        return "Fast Paced"
     
 def assignEntertainmentStats():
     
