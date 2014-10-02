@@ -82,6 +82,7 @@ class Wrestler(Worker):
         self.popularity = wrestlerStats.assignPopularity(self.microphone, self.look, self.charisma,
                                                          self.selling, self.psychology, self.grit,
                                                          self.honor)
+        self.alignment = wrestlerStats.assignFaction()
     
     def __str__(self):
         return Worker.__str__(self) + \

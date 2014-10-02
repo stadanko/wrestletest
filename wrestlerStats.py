@@ -81,5 +81,9 @@ def assignCharacterStats(weight):
     honor = random.randrange(top)
     return stamina, grit, honor
 
-
-    
+def assignFaction():
+    coinFlip = random.randrange(2)
+    if (coinFlip == 0):
+        return "Face"
+    else:
+        return "Heel"
