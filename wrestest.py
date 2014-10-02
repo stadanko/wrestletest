@@ -35,6 +35,7 @@ class MainPage(webapp2.RequestHandler):
             'w_strength': wrestler.strength,
             'w_aerial': wrestler.aerial,
             'w_grappling': wrestler.grappling,
+            'w_striking': wrestler.striking,
             'w_movement': wrestler.movement,
             # Wrestler Mental Statistics
             'w_microphone': wrestler.microphone,
